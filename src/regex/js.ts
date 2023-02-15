@@ -1,5 +1,5 @@
 /**
- * @file Regular EXPRESSIONS - EXT_JS_REGEX
+ * @file Regular Expressions - EXT_JS_REGEX
  * @module ext-regex/regex/js
  */
 
@@ -13,7 +13,7 @@
  * - `.jsx`
  * - `.mjs`
  *
- * Captured groups:
+ * Named capturing groups:
  *
  * - `type`: Letter between `'.'` and `'js'` in file extension
  *

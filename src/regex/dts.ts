@@ -12,7 +12,7 @@
  * - `.d.mts`
  * - `.d.ts`
  *
- * Captured groups:
+ * Named capturing groups:
  *
  * - `type`: Letter between `'.'` and `'ts'` in file extension
  *

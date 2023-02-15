@@ -1,5 +1,5 @@
 /**
- * @file Regular EXPRESSIONS - EXT_JSON_REGEX
+ * @file Regular Expressions - EXT_JSON_REGEX
  * @module ext-regex/regex/json
  */
 
@@ -12,7 +12,7 @@
  * - `.json5`
  * - `.jsonc`
  *
- * Captured groups:
+ * Named capturing groups:
  *
  * - `type`: Character after `'json'` in file extension
  *

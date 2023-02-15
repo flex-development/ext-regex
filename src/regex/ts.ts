@@ -1,5 +1,5 @@
 /**
- * @file Regular EXPRESSIONS - EXT_TS_REGEX
+ * @file Regular Expressions - EXT_TS_REGEX
  * @module ext-regex/regex/ts
  */
 
@@ -16,7 +16,7 @@
  * - `.ts`
  * - `.tsx`
  *
- * Captured groups:
+ * Named capturing groups:
  *
  * - `dts`: Letter `'d'` if extension is declaration file extension
  * - `type`: Letter between `'.'` and `'ts'` in file extension

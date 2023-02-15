@@ -5,14 +5,17 @@
 
 import type { Options } from '#src/interfaces'
 import * as internal from '#src/internal'
-import * as errnode from '@flex-development/errnode'
+import type * as errnode from '@flex-development/errnode'
 import * as pathe from '@flex-development/pathe'
 import { isNIL, type LiteralUnion } from '@flex-development/tutils'
 
 /**
  * Creates a regular expression matching the given file extension, `ext`.
  *
- * The file extension need not begin with a dot character (`'.'`).
+ * The file extension does not need to begin with a dot character (`'.'`). If it
+ * doesn't, however, it will be formatted before being converted into a regular
+ * expression pattern. The returned regular expression will match the formatted
+ * file extension instead.
  *
  * Throws `ERR_INVALID_ARG_TYPE` if the given file extension is not a string.
  *
