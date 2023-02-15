@@ -1,0 +1,91 @@
+// Vitest Snapshot v1
+
+exports[`unit:EXT_JSON_REGEX > .json > should match extension ".json" 1`] = `
+{
+  "0": ".json",
+  "1": undefined,
+  "groups": {
+    "type": undefined,
+  },
+}
+`;
+
+exports[`unit:EXT_JSON_REGEX > .json > should match module id given last extension is ".json" 1`] = `
+{
+  "0": ".json",
+  "1": undefined,
+  "groups": {
+    "type": undefined,
+  },
+}
+`;
+
+exports[`unit:EXT_JSON_REGEX > .json > should match module id given only extension is ".json" 1`] = `
+{
+  "0": ".json",
+  "1": undefined,
+  "groups": {
+    "type": undefined,
+  },
+}
+`;
+
+exports[`unit:EXT_JSON_REGEX > .json5 > should match extension ".json5" 1`] = `
+{
+  "0": ".json5",
+  "1": "5",
+  "groups": {
+    "type": "5",
+  },
+}
+`;
+
+exports[`unit:EXT_JSON_REGEX > .json5 > should match module id given last extension is ".json5" 1`] = `
+{
+  "0": ".json5",
+  "1": "5",
+  "groups": {
+    "type": "5",
+  },
+}
+`;
+
+exports[`unit:EXT_JSON_REGEX > .json5 > should match module id given only extension is ".json5" 1`] = `
+{
+  "0": ".json5",
+  "1": "5",
+  "groups": {
+    "type": "5",
+  },
+}
+`;
+
+exports[`unit:EXT_JSON_REGEX > .jsonc > should match extension ".jsonc" 1`] = `
+{
+  "0": ".jsonc",
+  "1": "c",
+  "groups": {
+    "type": "c",
+  },
+}
+`;
+
+exports[`unit:EXT_JSON_REGEX > .jsonc > should match module id given last extension is ".jsonc" 1`] = `
+{
+  "0": ".jsonc",
+  "1": "c",
+  "groups": {
+    "type": "c",
+  },
+}
+`;
+
+exports[`unit:EXT_JSON_REGEX > .jsonc > should match module id given only extension is ".jsonc" 1`] = `
+{
+  "0": ".jsonc",
+  "1": "c",
+  "groups": {
+    "type": "c",
+  },
+}
+`;
