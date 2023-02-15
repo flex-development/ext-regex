@@ -24,7 +24,8 @@ File extension regex
 
 ## What is this?
 
-**TODO**: package overview.
+This package exports regular expressions suitable for matching file extensions. It also provides a regular expression
+factory function to create file extension expressions.
 
 ## When should I use this?
 
