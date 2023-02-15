@@ -1134,6 +1134,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@flex-development/decorator-regex@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@flex-development/decorator-regex@npm:1.0.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40flex-development%2Fdecorator-regex%2F1.0.0%2Fe485b45a5c66ca688d77188039bb5efa90ca3fb8"
+  checksum: 3200659769897add6af31341c391a58a4edc7920b81042a7117a95c50ae0375da2f62c6869060ce91507a29ac9dbd06a96e440fe30b438536685f7ce36a1daca
+  languageName: node
+  linkType: hard
+
 "@flex-development/errnode@npm:1.2.0":
   version: 1.2.0
   resolution: "@flex-development/errnode@npm:1.2.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40flex-development%2Ferrnode%2F1.2.0%2F8e54e66e637d392299cd2d422224da9cf5d16cab"
@@ -1183,6 +1190,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": "npm:17.4.3"
     "@commitlint/config-conventional": "npm:17.4.3"
+    "@flex-development/decorator-regex": "npm:1.0.0"
     "@flex-development/errnode": "npm:1.5.0"
     "@flex-development/mkbuild": "npm:1.0.0-alpha.11"
     "@flex-development/mlly": "npm:1.0.0-alpha.11"
