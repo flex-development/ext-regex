@@ -108,3 +108,8 @@ ignore:
   - '**/__mocks__/**'
   - '**/__tests__/**'
   - '**/index.ts'
+
+profiling:
+  critical_files_paths:
+    - ./src/regex/*.ts
+    - ./src/utils/ext-regex.ts
