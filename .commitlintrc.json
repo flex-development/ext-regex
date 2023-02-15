@@ -19,6 +19,7 @@
         "exports",
         "github",
         "install",
+        "interfaces",
         "internal",
         "loader",
         "nvm",
