@@ -22,6 +22,7 @@ micnncim
 nocheck
 npmrc
 nvmrc
+pcre
 pkgs
 pnpm
 preid

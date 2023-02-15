@@ -29,7 +29,12 @@ factory function to create file extension expressions.
 
 ## When should I use this?
 
-**TODO**: use cases.
+Regular expressions exported from this package can be used to test both file extensions and names. A factory function is
+also exported that can be used to create a regular expression for any given file extension.
+
+**Note**:
+
+- Expressions are ECMAScript-compatible. They have not been tested with other flavors (PCRE, PCRE2, etc)
 
 ## Install
 
