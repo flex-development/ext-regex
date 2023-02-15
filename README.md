@@ -19,6 +19,7 @@ File extension regex
 - [Use](#use)
 - [API](#api)
 - [Types](#types)
+  - [Interfaces](#interfaces)
 - [Related](#related)
 - [Contribute](#contribute)
 
@@ -68,6 +69,10 @@ yarn add @flex-development/ext-regex@flex-development/ext-regex
 ## Types
 
 This package is fully typed with [TypeScript][2].
+
+### Interfaces
+
+- [`Options`](src/interfaces/options.ts)
 
 ## Related
 
