@@ -1,0 +1,121 @@
+// Vitest Snapshot v1
+
+exports[`unit:EXT_JS_REGEX > .cjs > should match extension ".cjs" 1`] = `
+{
+  "0": ".cjs",
+  "1": "c",
+  "groups": {
+    "type": "c",
+  },
+}
+`;
+
+exports[`unit:EXT_JS_REGEX > .cjs > should match module id given last extension is ".cjs" 1`] = `
+{
+  "0": ".cjs",
+  "1": "c",
+  "groups": {
+    "type": "c",
+  },
+}
+`;
+
+exports[`unit:EXT_JS_REGEX > .cjs > should match module id given only extension is ".cjs" 1`] = `
+{
+  "0": ".cjs",
+  "1": "c",
+  "groups": {
+    "type": "c",
+  },
+}
+`;
+
+exports[`unit:EXT_JS_REGEX > .js > should match extension ".js" 1`] = `
+{
+  "0": ".js",
+  "1": undefined,
+  "groups": {
+    "type": undefined,
+  },
+}
+`;
+
+exports[`unit:EXT_JS_REGEX > .js > should match module id given last extension is ".js" 1`] = `
+{
+  "0": ".js",
+  "1": undefined,
+  "groups": {
+    "type": undefined,
+  },
+}
+`;
+
+exports[`unit:EXT_JS_REGEX > .js > should match module id given only extension is ".js" 1`] = `
+{
+  "0": ".js",
+  "1": undefined,
+  "groups": {
+    "type": undefined,
+  },
+}
+`;
+
+exports[`unit:EXT_JS_REGEX > .jsx > should match extension ".jsx" 1`] = `
+{
+  "0": ".jsx",
+  "1": undefined,
+  "groups": {
+    "type": undefined,
+  },
+}
+`;
+
+exports[`unit:EXT_JS_REGEX > .jsx > should match module id given last extension is ".jsx" 1`] = `
+{
+  "0": ".jsx",
+  "1": undefined,
+  "groups": {
+    "type": undefined,
+  },
+}
+`;
+
+exports[`unit:EXT_JS_REGEX > .jsx > should match module id given only extension is ".jsx" 1`] = `
+{
+  "0": ".jsx",
+  "1": undefined,
+  "groups": {
+    "type": undefined,
+  },
+}
+`;
+
+exports[`unit:EXT_JS_REGEX > .mjs > should match extension ".mjs" 1`] = `
+{
+  "0": ".mjs",
+  "1": "m",
+  "groups": {
+    "type": "m",
+  },
+}
+`;
+
+exports[`unit:EXT_JS_REGEX > .mjs > should match module id given last extension is ".mjs" 1`] = `
+{
+  "0": ".mjs",
+  "1": "m",
+  "groups": {
+    "type": "m",
+  },
+}
+`;
+
+exports[`unit:EXT_JS_REGEX > .mjs > should match module id given only extension is ".mjs" 1`] = `
+{
+  "0": ".mjs",
+  "1": "m",
+  "groups": {
+    "type": "m",
+  },
+}
+`;
