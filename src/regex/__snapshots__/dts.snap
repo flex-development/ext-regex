@@ -1,0 +1,91 @@
+// Vitest Snapshot v1
+
+exports[`unit:EXT_DTS_REGEX > .d.cts > should match extension ".d.cts" 1`] = `
+{
+  "0": ".d.cts",
+  "1": "c",
+  "groups": {
+    "type": "c",
+  },
+}
+`;
+
+exports[`unit:EXT_DTS_REGEX > .d.cts > should match module id given last extension is ".d.cts" 1`] = `
+{
+  "0": ".d.cts",
+  "1": "c",
+  "groups": {
+    "type": "c",
+  },
+}
+`;
+
+exports[`unit:EXT_DTS_REGEX > .d.cts > should match module id given only extension is ".d.cts" 1`] = `
+{
+  "0": ".d.cts",
+  "1": "c",
+  "groups": {
+    "type": "c",
+  },
+}
+`;
+
+exports[`unit:EXT_DTS_REGEX > .d.mts > should match extension ".d.mts" 1`] = `
+{
+  "0": ".d.mts",
+  "1": "m",
+  "groups": {
+    "type": "m",
+  },
+}
+`;
+
+exports[`unit:EXT_DTS_REGEX > .d.mts > should match module id given last extension is ".d.mts" 1`] = `
+{
+  "0": ".d.mts",
+  "1": "m",
+  "groups": {
+    "type": "m",
+  },
+}
+`;
+
+exports[`unit:EXT_DTS_REGEX > .d.mts > should match module id given only extension is ".d.mts" 1`] = `
+{
+  "0": ".d.mts",
+  "1": "m",
+  "groups": {
+    "type": "m",
+  },
+}
+`;
+
+exports[`unit:EXT_DTS_REGEX > .d.ts > should match extension ".d.ts" 1`] = `
+{
+  "0": ".d.ts",
+  "1": undefined,
+  "groups": {
+    "type": undefined,
+  },
+}
+`;
+
+exports[`unit:EXT_DTS_REGEX > .d.ts > should match module id given last extension is ".d.ts" 1`] = `
+{
+  "0": ".d.ts",
+  "1": undefined,
+  "groups": {
+    "type": undefined,
+  },
+}
+`;
+
+exports[`unit:EXT_DTS_REGEX > .d.ts > should match module id given only extension is ".d.ts" 1`] = `
+{
+  "0": ".d.ts",
+  "1": undefined,
+  "groups": {
+    "type": undefined,
+  },
+}
+`;

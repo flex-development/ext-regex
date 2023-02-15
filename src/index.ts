@@ -3,4 +3,4 @@
  * @module ext-regex
  */
 
-export {}
+export * from './regex'
