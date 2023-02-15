@@ -1,0 +1,253 @@
+// Vitest Snapshot v1
+
+exports[`unit:EXT_TS_REGEX > .cts > should match extension ".cts" 1`] = `
+{
+  "0": ".cts",
+  "1": undefined,
+  "2": "c",
+  "groups": {
+    "dts": undefined,
+    "type": "c",
+  },
+}
+`;
+
+exports[`unit:EXT_TS_REGEX > .cts > should match module id given last extension is ".cts" 1`] = `
+{
+  "0": ".cts",
+  "1": undefined,
+  "2": "c",
+  "groups": {
+    "dts": undefined,
+    "type": "c",
+  },
+}
+`;
+
+exports[`unit:EXT_TS_REGEX > .cts > should match module id given only extension is ".cts" 1`] = `
+{
+  "0": ".cts",
+  "1": undefined,
+  "2": "c",
+  "groups": {
+    "dts": undefined,
+    "type": "c",
+  },
+}
+`;
+
+exports[`unit:EXT_TS_REGEX > .mts > should match extension ".mts" 1`] = `
+{
+  "0": ".mts",
+  "1": undefined,
+  "2": "m",
+  "groups": {
+    "dts": undefined,
+    "type": "m",
+  },
+}
+`;
+
+exports[`unit:EXT_TS_REGEX > .mts > should match module id given last extension is ".mts" 1`] = `
+{
+  "0": ".mts",
+  "1": undefined,
+  "2": "m",
+  "groups": {
+    "dts": undefined,
+    "type": "m",
+  },
+}
+`;
+
+exports[`unit:EXT_TS_REGEX > .mts > should match module id given only extension is ".mts" 1`] = `
+{
+  "0": ".mts",
+  "1": undefined,
+  "2": "m",
+  "groups": {
+    "dts": undefined,
+    "type": "m",
+  },
+}
+`;
+
+exports[`unit:EXT_TS_REGEX > .ts > should match extension ".ts" 1`] = `
+{
+  "0": ".ts",
+  "1": undefined,
+  "2": undefined,
+  "groups": {
+    "dts": undefined,
+    "type": undefined,
+  },
+}
+`;
+
+exports[`unit:EXT_TS_REGEX > .ts > should match module id given last extension is ".ts" 1`] = `
+{
+  "0": ".ts",
+  "1": undefined,
+  "2": undefined,
+  "groups": {
+    "dts": undefined,
+    "type": undefined,
+  },
+}
+`;
+
+exports[`unit:EXT_TS_REGEX > .ts > should match module id given only extension is ".ts" 1`] = `
+{
+  "0": ".ts",
+  "1": undefined,
+  "2": undefined,
+  "groups": {
+    "dts": undefined,
+    "type": undefined,
+  },
+}
+`;
+
+exports[`unit:EXT_TS_REGEX > .tsx > should match extension ".tsx" 1`] = `
+{
+  "0": ".tsx",
+  "1": undefined,
+  "2": undefined,
+  "groups": {
+    "dts": undefined,
+    "type": undefined,
+  },
+}
+`;
+
+exports[`unit:EXT_TS_REGEX > .tsx > should match module id given last extension is ".tsx" 1`] = `
+{
+  "0": ".tsx",
+  "1": undefined,
+  "2": undefined,
+  "groups": {
+    "dts": undefined,
+    "type": undefined,
+  },
+}
+`;
+
+exports[`unit:EXT_TS_REGEX > .tsx > should match module id given only extension is ".tsx" 1`] = `
+{
+  "0": ".tsx",
+  "1": undefined,
+  "2": undefined,
+  "groups": {
+    "dts": undefined,
+    "type": undefined,
+  },
+}
+`;
+
+exports[`unit:EXT_TS_REGEX > dts > .d.cts > should match extension ".d.cts" 1`] = `
+{
+  "0": ".d.cts",
+  "1": "d",
+  "2": "c",
+  "groups": {
+    "dts": "d",
+    "type": "c",
+  },
+}
+`;
+
+exports[`unit:EXT_TS_REGEX > dts > .d.cts > should match module id given last extension is ".d.cts" 1`] = `
+{
+  "0": ".d.cts",
+  "1": "d",
+  "2": "c",
+  "groups": {
+    "dts": "d",
+    "type": "c",
+  },
+}
+`;
+
+exports[`unit:EXT_TS_REGEX > dts > .d.cts > should match module id given only extension is ".d.cts" 1`] = `
+{
+  "0": ".d.cts",
+  "1": "d",
+  "2": "c",
+  "groups": {
+    "dts": "d",
+    "type": "c",
+  },
+}
+`;
+
+exports[`unit:EXT_TS_REGEX > dts > .d.mts > should match extension ".d.mts" 1`] = `
+{
+  "0": ".d.mts",
+  "1": "d",
+  "2": "m",
+  "groups": {
+    "dts": "d",
+    "type": "m",
+  },
+}
+`;
+
+exports[`unit:EXT_TS_REGEX > dts > .d.mts > should match module id given last extension is ".d.mts" 1`] = `
+{
+  "0": ".d.mts",
+  "1": "d",
+  "2": "m",
+  "groups": {
+    "dts": "d",
+    "type": "m",
+  },
+}
+`;
+
+exports[`unit:EXT_TS_REGEX > dts > .d.mts > should match module id given only extension is ".d.mts" 1`] = `
+{
+  "0": ".d.mts",
+  "1": "d",
+  "2": "m",
+  "groups": {
+    "dts": "d",
+    "type": "m",
+  },
+}
+`;
+
+exports[`unit:EXT_TS_REGEX > dts > .d.ts > should match extension ".d.ts" 1`] = `
+{
+  "0": ".d.ts",
+  "1": "d",
+  "2": undefined,
+  "groups": {
+    "dts": "d",
+    "type": undefined,
+  },
+}
+`;
+
+exports[`unit:EXT_TS_REGEX > dts > .d.ts > should match module id given last extension is ".d.ts" 1`] = `
+{
+  "0": ".d.ts",
+  "1": "d",
+  "2": undefined,
+  "groups": {
+    "dts": "d",
+    "type": undefined,
+  },
+}
+`;
+
+exports[`unit:EXT_TS_REGEX > dts > .d.ts > should match module id given only extension is ".d.ts" 1`] = `
+{
+  "0": ".d.ts",
+  "1": "d",
+  "2": undefined,
+  "groups": {
+    "dts": "d",
+    "type": undefined,
+  },
+}
+`;
