@@ -1234,7 +1234,7 @@ __metadata:
     "@types/eslint": "npm:8.21.1"
     "@types/git-raw-commits": "npm:2.0.1"
     "@types/is-ci": "npm:3.0.0"
-    "@types/node": "npm:18.14.4"
+    "@types/node": "npm:18.14.6"
     "@types/node-notifier": "npm:8.0.2"
     "@types/prettier": "npm:2.7.2"
     "@types/semver": "npm:7.3.13"
@@ -2197,10 +2197,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:18.14.4":
-  version: 18.14.4
-  resolution: "@types/node@npm:18.14.4"
-  checksum: 96c3a61093dd7d2006d5d30be093cfdea21537db79e14c99c5c9b550b9cf384aafd77864b51d528f5e43213af4e885e3751ed361e13bf227bfb49cefd278825d
+"@types/node@npm:*, @types/node@npm:18.14.6":
+  version: 18.14.6
+  resolution: "@types/node@npm:18.14.6"
+  checksum: 4bbd9fe4cb1b31afe4f76b0b37fe51e46199dc57ab519811f61456cb267d7590323e6c687041f5a73872858d9eb64fdd158e9f669bbb36979d59ec7a91396dfa
   languageName: node
   linkType: hard
 
