@@ -1,5 +1,6 @@
 # ext-regex
 
+[![github release](https://img.shields.io/github/v/release/flex-development/ext-regex.svg?include_prereleases&sort=semver)](https://github.com/flex-development/ext-regex/releases/latest)
 [![npm](https://img.shields.io/npm/v/@flex-development/ext-regex.svg)](https://npmjs.com/package/@flex-development/ext-regex)
 [![codecov](https://codecov.io/gh/flex-development/ext-regex/branch/main/graph/badge.svg?token=P5v3y7X9FG)](https://codecov.io/gh/flex-development/ext-regex)
 [![module type: esm](https://img.shields.io/badge/module%20type-esm-brightgreen)](https://github.com/voxpelli/badges-cjs-esm)
@@ -66,7 +67,7 @@ yarn add @flex-development/ext-regex@flex-development/ext-regex
 ## Use
 
 ```typescript
-import { DECORATOR_REGEX } from '@flex-development/decorator-regex'
+import { DECORATOR_REGEX } from '@flex-development/ext-regex'
 import { EXT_DTS_REGEX, EXT_TS_REGEX } from '@flex-development/ext-regex'
 import * as mlly from '@flex-development/mlly'
 import pathe from '@flex-development/pathe'
@@ -299,7 +300,7 @@ This package is fully typed with [TypeScript][2].
 
 ## Related
 
-- [`decorator-regex`][3] &mdash; [Decorator][4] regex
+- [`ext-regex`][3] &mdash; [Decorator][4] regex
 - [`export-regex`][5] &mdash; `export` statement regex
 - [`import-regex`][6] &mdash; `import` statement regex
 
@@ -309,7 +310,7 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 [1]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
 [2]: https://www.typescriptlang.org
-[3]: https://github.com/flex-development/decorator-regex
+[3]: https://github.com/flex-development/ext-regex
 [4]: https://github.com/tc39/proposal-decorators
 [5]: https://github.com/flex-development/export-regex
 [6]: https://github.com/flex-development/import-regex
