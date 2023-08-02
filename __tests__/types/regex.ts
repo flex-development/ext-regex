@@ -3,6 +3,8 @@
  * @module tests/types/Regex
  */
 
+import type { Pick } from '@flex-development/tutils'
+
 /**
  * Object containing testable {@linkcode RegExp} properties.
  */

@@ -4,9 +4,10 @@
  */
 
 import * as errnode from '@flex-development/errnode'
+import { isString } from '@flex-development/tutils'
 
 /**
- * Checks if given `value` is a string.
+ * Checks if `value` is a string.
  *
  * Throws [`ERR_INVALID_ARG_TYPE`][1] if the `value` is not a string.
  *
@@ -21,7 +22,7 @@ import * as errnode from '@flex-development/errnode'
  * @throws {errnode.NodeError<TypeError>} If `value` is not a string
  */
 const validateString = (value: unknown, name: string): value is string => {
-  if (typeof value === 'string') return true
+  if (isString(value)) return true
   throw new errnode.ERR_INVALID_ARG_TYPE(name, 'string', value)
 }
 
