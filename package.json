@@ -1,7 +1,7 @@
 {
   "name": "@flex-development/ext-regex",
   "description": "File extension regex",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "keywords": [
     "ext",
     "extname",
