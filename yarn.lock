@@ -1177,7 +1177,7 @@ __metadata:
     "@flex-development/esm-types": "npm:2.0.0"
     "@flex-development/mkbuild": "npm:1.0.0-alpha.20"
     "@flex-development/mlly": "npm:1.0.0-alpha.15"
-    "@flex-development/pathe": "npm:1.0.3"
+    "@flex-development/pathe": "npm:2.0.0"
     "@flex-development/tsconfig-utils": "npm:1.1.2"
     "@flex-development/tutils": "npm:6.0.0-alpha.14"
     "@graphql-eslint/eslint-plugin": "npm:3.20.1"
@@ -1349,6 +1349,16 @@ __metadata:
     "@flex-development/errnode": "npm:1.2.0"
     "@flex-development/tutils": "npm:6.0.0-alpha.7"
   checksum: 8e5d5fac78de147469dad1ca5ba24426dc7fbe022974f02e79e35a65a4dbc3682794bdba16d4560370424bbe4d54077f46df0e980efde1115507bbc4f13d9693
+  languageName: node
+  linkType: hard
+
+"@flex-development/pathe@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@flex-development/pathe@npm:2.0.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40flex-development%2Fpathe%2F2.0.0%2F3333862074db1a5d797c2305f7bbb17593320d2f"
+  dependencies:
+    "@flex-development/errnode": "npm:2.0.0"
+    "@flex-development/tutils": "npm:6.0.0-alpha.12"
+  checksum: 189df750c7a55ce973fbbc688f9aae239f8f37287e983e2e142fe1d538f944539c416452dd618bbf1da54f8012841579ad45dc91f55126e0a76d25b2b525b269
   languageName: node
   linkType: hard
 
